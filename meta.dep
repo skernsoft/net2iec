@@ -1,0 +1,11 @@
+meta.dep meta.o meta.E meta.s: meta.c config.h autoconf.h pinning.c core/debug.h core/global.h \
+ core/util/byte2bin.h services/freqcount/freqcount.h network.h \
+ hardware/ethernet/enc28j60.h config.h protocols/uip/uip.h \
+ protocols/uip/uipopt.h protocols/uip/uip-conf.h meta.h core/pt/pt.h \
+ core/pt/lc.h core/pt/lc-switch.h hardware/radio/rfm12/rfm12_net.h \
+ protocols/zbus/zbus.h protocols/uip/uip.h protocols/usb/usb_net.h \
+ protocols/usb/usbdrv/usbdrv.h protocols/usb/usbconfig.h pinning.c \
+ protocols/usb/usbdrv/usbportability.h protocols/uip/uip_router.h \
+ protocols/uip/uip-conf.h network.h protocols/uip/uip_arp.h \
+ protocols/uip/uip.h protocols/uip/ipv6.h core/periodic.h \
+ protocols/uip/uip_router.h protocols/uip/uip_neighbor.h

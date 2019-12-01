@@ -1,0 +1,12 @@
+network.dep network.o network.E network.s: network.c network.h hardware/ethernet/enc28j60.h config.h \
+ autoconf.h pinning.c config.h protocols/uip/uip.h protocols/uip/uipopt.h \
+ protocols/uip/uip-conf.h meta.h core/pt/pt.h core/pt/lc.h \
+ core/pt/lc-switch.h hardware/radio/rfm12/rfm12_net.h \
+ protocols/zbus/zbus.h protocols/uip/uip.h protocols/usb/usb_net.h \
+ protocols/usb/usbdrv/usbdrv.h protocols/usb/usbconfig.h pinning.c \
+ protocols/usb/usbdrv/usbportability.h protocols/uip/uip_router.h \
+ protocols/uip/uip-conf.h network.h protocols/uip/uip_arp.h \
+ protocols/uip/uip.h protocols/uip/ipv6.h sd2iec/eeprom.h sd2iec/config.h \
+ autoconf.h core/global.h core/mbr.h protocols/zbus/zbus.h core/debug.h \
+ core/util/byte2bin.h protocols/uip/uip_neighbor.h \
+ protocols/uip/uip_rfm12.h protocols/uip/uip_zbus.h services/tftp/tftp.h
